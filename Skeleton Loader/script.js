@@ -24,5 +24,5 @@ const skeletonList = loadSkeleton(skeletonLoader, container);
 setTimeout(() => {
   skeletonList.forEach((s) => s.remove());
   container.style.visibility = "visible";
-  console.style.position = "static";
+  container.style.position = "static";
 }, 2000);
